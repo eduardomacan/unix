@@ -1,0 +1,21 @@
+cat
+Concatena e mostra arquivos.
+Sintaxe: cat [-etuv] [arquivo ...]
+Parâmetro Descrição
+-e Similar a -v, mas imprime um cifrão ($) ao final
+de cada linha. Ignorado em alguns sistemas se
+não usado com -v.
++t Similar a-v, mas imprime caracteres detabulação
+(tabs) como?I. Ignorado em alguns sistemas se
+não usado com -v.
+-u Processa a saída caractere a caractere, em vez
+de utilizar o buffer.
+“Vv Imprime caracteres especiais de forma visivel
+(tabs e newlines sao processados).
+Exemplos:
+cat > texto. txt
+Copia stdin para o arquivo texto. txt.
+cat textol texto2 > capitulol
+Cria o arquivo capitulo 1 como resultado da concatenação de texto1 e texto2.
+3 cat arql - arg2 > arq3
+2 Cria o arquivo arq3, como resultado da concatenação de arq1, stdin e arq2.
