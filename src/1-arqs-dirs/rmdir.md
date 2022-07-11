@@ -1,6 +1,7 @@
 ## rmdir
 Remove diretorios vazios.
-Sintaxe: rmdir <diretorio> [diretorio ...]
 
+Sintaxe: 
 
+	rmdir <diretorio> [diretorio ...]
 
