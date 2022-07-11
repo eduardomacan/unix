@@ -2,6 +2,7 @@
 
 Mostra o diretório corrente.
 
-Sintaxe: pwd
+Sintaxe: 
 
+	pwd
 
