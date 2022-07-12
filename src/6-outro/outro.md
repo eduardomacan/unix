@@ -34,26 +34,19 @@ Table: Tabela simplificada de Correspondência DOS-UNIX
 
 # Leitura Recomendada
 
-UNIX System Programming, Keith Haviland e Ben Salama, Addison-
+- UNIX System Programming, Keith Haviland e Ben Salama, Addison-
 Wesley Publishing.
-
-The UNIX System, S. R. Bourne, Addison-Wesley Publishing.
-
-The UNIX System V Environment, S. R. Bourne, Addison-Wesley
-Publishing.
-
-Modern Operating Systems, Andrew S. Tanembaum, Prentice Hall.
-
-Operating systems: Design and Implementation, Andrew S.
-Tanembaum, Prentice Hall.
-
-Computer Networks, Andrew S. Tanembaum, Prentice Hall.
-
-The C Programming Language, B. W. Kernighan e D. M. Ritchie,
-Prentice Hall .
-
-Internetworking with TCP/IP: Principles, Protocols and
-Architecture, D. Comer, Prentice Hall.
+- The UNIX System, S. R. Bourne, Addison-Wesley Publishing.
+- The UNIX System V Environment, S. R. Bourne, Addison-Wesley
+  Publishing.
+- Modern Operating Systems, Andrew S. Tanembaum, Prentice Hall.
+- Operating systems: Design and Implementation, Andrew S.
+  Tanembaum, Prentice Hall.
+- Computer Networks, Andrew S. Tanembaum, Prentice Hall.
+- The C Programming Language, B. W. Kernighan e D. M. Ritchie,
+  Prentice Hall .
+- Internetworking with TCP/IP: Principles, Protocols and
+  Architecture, D. Comer, Prentice Hall.
 
 Obs: Parte destes titulos esta disponivel em portugués, consulte a
 livraria mais proxima.
@@ -130,7 +123,7 @@ FreeBSD no corpo do e-mail.
 
 # Software Livre
 
-Háalguns anos a Free Software Foundation (FSF) vem produzindo softwares
+Há alguns anos a Free Software Foundation (FSF) vem produzindo software
 com qualidade no minimo equivalente à dos similares comerciais; o software é
 desenvolvido por voluntários de várias partes do mundo e garante a liberdade do
 usuário de redistribui-lo e modificá-lo, pois o código fonte está sempre disponível,
@@ -141,14 +134,14 @@ arquiteturas e se não houver versão disponível para seu sistema, você poder�
 tomar a iniciativa de portá-lo, sem depender do interesse comercial de uma grande
 companhia.
 
-A iniciativa de produção de software livre*, patrocinada ou não pela FSF,
+A iniciativa de produção de software livre\*, patrocinada ou não pela FSF,
 trouxe grandes contribuições ao público, entre elas os sistemas Unix free,
 destacando-se Linux e FreeBSD.
 
 Para saber mais sobre "free software" consulte as páginas da seção
 Internet deste guia.
 
-* A tradução adequada de "free" para este caso é "livre" e não "grátis", pois o
+\* A tradução adequada de "free" para este caso é "livre" e não "grátis", pois o
 usuário tem todaliberdade com o sofware. Os direitos de cópia são reservados ao autor,
 que os cede ao interesse público. O software é pago mediante doação para o autor ou
 instituição que detiver os direitos do software.
@@ -177,7 +170,7 @@ quanto ao que é realmente útil em um guia de consulta rápida e a quem o mesmo
 se destina.
 
 Este guia foi escrito baseando-se na experiência do autor com vários
-"sabores" de UNIX, a saber: Linux, FreeBSD, SunOS, Solaris, HP-UX, AlIXe OSF/1
+"sabores" de UNIX, a saber: Linux, FreeBSD, SunOS, Solaris, HP-UX, AIX e OSF/1
 e nos manuais dos quatro primeiros. Visamos sempre a documentação do que era
 comum a todas as versões de cada comando, delimitando desta forma um núcleo
 de informação genérica o suficiente para que pudéssemos afirmar que este guia
@@ -192,7 +185,7 @@ fascinantes sistemas operacionais já desenvolvidos.
 O texto deste guia foi inteiramente composto e editado usando free
 software. O autor utilizou o sistema operacional Linux (Debian/GNU), XFree86
 (sistema de janelas) e o editor de textos GNU Emacs (ainda estou tentando
-convencer a editora a usar Latex para a formatação. :-)).
+convencer a editora a usar LaTeX para a formatação. :-)).
 
 O autor deste guia pode ser contatado pela Internet, através do endereço:
 
@@ -200,21 +193,12 @@ E-Mail: macan@novatec1.com
 
 Sugestões e comentários sobre este guia são sempre bem-vindos.
 
-  
-
-
- 
-
 # Convenção Utilizada neste Guia
  
-
-Convenção Significado
-
-[ texto ] Texto é opcional.
-
-<texto> Texto é obrigatório.
-
-texto... Texto pode ocorrer mais de uma vez.
-
-texto | texto? Texto1 etexto2 são alternativas mutuamente exclusivas.
+Convenção       Significado
+---------       -----------
+[ texto ]       Texto é opcional.
+\<texto\>       Texto é obrigatório.
+texto...        Texto pode ocorrer mais de uma vez.
+texto1 | texto2 Texto1 etexto2 são alternativas mutuamente exclusivas.
 
