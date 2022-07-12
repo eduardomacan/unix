@@ -2,6 +2,7 @@
 
 Mostra o ID efetivo do usuário.
 
-Sintaxe: whoami
+Sintaxe: 
 
+	whoami
 
