@@ -2,12 +2,12 @@
 
 Lista processos em execução pela shell.
 
-Sintaxe: jobs [-|]
-Parâmetro
-|
+Sintaxe:
 
-Descrição
+	jobs [-|]
 
-Lista também o número de cada processo.
+Parâmetro Descrição
+--------- ---------
+-l        Lista também o número de cada processo.
 
 
