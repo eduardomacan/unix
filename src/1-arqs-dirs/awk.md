@@ -6,7 +6,8 @@ detalhada da linguagem AWK e seus comandos, consulte os manuais
 on-line do sistema (**man awk**).
 
 Sintaxe 
-:   	awk [ -f *arq* ][ -F *c* ] ['prog'] [arquivo ...]
+
+	awk [ -f *arq* ][ -F *c* ] ['prog'] [arquivo ...]
 
 Parâmetro     Descrição
 ---------     ---------
@@ -25,19 +26,20 @@ Parâmetro     Descrição
 		      *padrão-ação* tem o seguinte formato: 
 		      **padrão { ação }**
 
-Utilização
+Utilização:
 
-:  Comparam-se os padrões especificados em prog a cada linha dos arquivos de entrada, executando uma ação associada sempre que houver correspondência. Um padrão vazio corresponde a todas as linhas da entrada, a ação vazia imprime a linha que correspondeu ao padrão.
+Comparam-se os padrões especificados em prog a cada linha dos arquivos de entrada, executando uma ação associada sempre que houver correspondência. Um padrão vazio corresponde a todas as linhas da entrada, a ação vazia imprime a linha que correspondeu ao padrão.
 
 Padrões: 
 
-:  Um padrão é uma combinação booleana de expressões relacionais ou regulares, com sintaxe similar à da linguagem C. Dois padrões especiais, **BEGIN** e **END**, são usados para tomar ações antes do processamento da primeira linha de entrada e após o processamento da última linha, respectivamente.
+Um padrão é uma combinação booleana de expressões relacionais ou regulares, com sintaxe similar à da linguagem C. Dois padrões especiais, **BEGIN** e **END**, são usados para tomar ações antes do processamento da primeira linha de entrada e após o processamento da última linha, respectivamente.
 
 Ações: 
-:  Uma ação é uma sequência de comandos separados por ponto e virgula (;) TAB ou newiline.
+
+Uma ação é uma sequência de comandos separados por ponto e virgula (;) TAB ou newiline.
 
 Comandos
-:  
+  
 	if (expr) comando [ else comando ]
 	while ( expr ) comando
 	do comando while (expressão )
@@ -53,15 +55,16 @@ Comandos
 	exit [n]
 
 Expressões
-:  Expressões em AWK têm sintaxe semelhante à da linguagem
+
+Expressões em AWK têm sintaxe semelhante à da linguagem
 C, sendo válidos os operadores relacionais e de atribuição
 definidos nesta linguagem, a saber:
 
-Operador	Significado
---------	-----------
-**+**	    Adição.
+Operador    Significado
+--------    -----------
+**+**       Adição.
 **-**       Subtração.
-**\***      Multiplicação.
+** \* **    Multiplicação.
 **/**       Divisão.
 **\%**      Módulo.
 **\^**      Exponenciação.
@@ -69,7 +72,7 @@ Operador	Significado
 **--**      Decremento.
 **+=**      Soma de valor à variável.
 **-=**      Subtração de valor da variável.
-**\*=**     Multiplicação de variável por valor.
+** \*= **   Multiplicação de variável por valor.
 **/=**      Divisão de variável por valor.
 **\%=**     Módulo de variável por valor.
 **^=**      Exponenciação de variável por valor.
@@ -92,7 +95,7 @@ index(s,t)            Retorna a posição da primeira ocorrência
                       não houver ocorrências.
 int(s)                Converte a strings para um valor inteiro.
                       Se s não for especificada, usa toda a
-			          linha de entrada.
+		      linha de entrada.
 lenght(s)             Retorna o comprimento da string s, ou da
                       linha de entrada se s não for especificada.
 match(s,er)           Retorna a posição da primeira ocorrência da
@@ -142,32 +145,28 @@ FS                       Separador de campos (default espaço e
 
 ### Exemplos:
 
-	awk--F>- “(print $]-“->—* S5)' /etc/passwd
-Mostra os usuarios locais do sistema e seus respectivos nomes completos.
+	# Mostra os usuarios locais do sistema e seus respectivos nomes completos.
+	awk -F: '{print $1 " -> " $5)' /etc/passwd
 
 ~~~~~~~
-#Programa - AWK Eduardo M. Macan 1996
+ # Programa - AWK Eduardo M. Macan 1996
+ # Calcula as médias dos alunos e a média da classe, a partir de um arquivo texto
+ # contendo um nome e duas notas em cada linha (por exemplo: Eduardo 5.7 7.5).
+
 BEGIN {
-
-printf("Aluno\t\tMedia Final\n")
+	printf("Aluno\t\tMedia Final\n")
 }
 
-Sit
-++alunos;
-media=($2 + $3) / 2;
-printf ("%s\t\t%.2£\n",$1,media) ;
-total+=media
+S1 {
+	++alunos;
+	media=($2 + $3) / 2;
+	printf ("%s\t\t%.2£\n",$1,media) ;
+	total+=media
 }
-A END (
-, printf("Media da turma : %.2f\n",total/
-alunos)
 
+END {
+	printf("Media da turma : %.2f\n",total/alunos)
 }
 #fim do programa
 ~~~~~~~
-
-‘ Calcula as médias dos alunos e a média da classe, a partir de um arquivo texto
-contendo um nome e duas notas em cada linha (por exemplo: Eduardo 5.7 7.5).
-
-
 
