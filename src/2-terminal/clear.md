@@ -1,6 +1,9 @@
 ## clear
+
 Limpa o terminal.
 
-Sintaxe: clear
+Sintaxe: 
+
+	clear
 
 
