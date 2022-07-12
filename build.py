@@ -120,7 +120,7 @@ FILES = [
           "src/4-misc/xargs.md",
           "src/4-misc/yes.md",
           "src/5-net/ftp.md",
-          "src/5-net/lp.md",
+          "src/5-net/lpr.md",
       "src/5-net.md",
             "src/5-net/ftp.md",
           "src/5-net/mail.md",
