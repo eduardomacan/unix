@@ -1,7 +1,10 @@
 ## fg
 
 Põe em foreground um processo em execução.
-Sintaxe: fg [%id]
+
+Sintaxe: 
+
+	fg [%id]
 
 Utilização: Comando interno da shell. Quando um processo foi
 interrompido ou está sendo executado em background (veja
@@ -14,18 +17,16 @@ identificador de job for especificado, o último processo
 interrompido será colocado em foreground.
 
 Parâmetro Descrição
-
- 
-
-id No caso de haver varios processos interrompidos,
-indica qual processo sera colocado em foreground.
+--------- ---------
+id        No caso de haver varios processos interrompidos,
+          indica qual processo sera colocado em foreground.
 
 Exemplo:
-fsequência de comandos, respostas da shell
-tem itálico.
-vi&
-[1] xxx  (<-- número do processo)
-[1]+ Stopped (tty output) vi
-fg %1
 
+#sequência de comandos, $ indica o prompt da shell
+
+	$ vi &
+	[1] xxx  (<-- número do processo)
+	[1]+ Stopped (tty output) vi
+	$ fg %1
 
