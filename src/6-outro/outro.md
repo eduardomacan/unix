@@ -53,72 +53,89 @@ livraria mais proxima.
 
 # WWW
 
-http://www. openline.com.br/linux-br
 Pagina oficial da lista de discussão linux-br, a maior e mais antiga do pais.
 
-http: //www.mondotech.com/lual
-Lista deUsuáriosAvançados deLinux (listafechada, inscrição mediante indicação).
+  ~ <http://www.openline.com.br/linux-br>
 
-http://www. linux.org
+Lista de Usuários Avançados de Linux (lista fechada, inscrição mediante indicação).
+
+  ~ <http://www.mondotech.com/lual>
+
 Site oficial da linux international.
 
-http: //www.br.freebsd.org
+  ~ <http://www.linux.org>
+
 Site oficial da freebsd.org no Brasil.
 
-http: //www.xfree86.org
+  ~ <http://www.br.freebsd.org>
+
 O Site do Servidor X Free.
 
-http: //www.gnu.org
+  ~ <http://www.xfree86.org>
+
 Free Software Foundation.
 
-http: //www.debian.org
+  ~ <http://www.gnu.org>
+
 Debian GNU/LINUX.
 
-http: //www.openline.com.br/linux-br
+  ~ <http://www.debian.org>
+
 Home page da lista Linux-BR.
 
-http: //unixworld.com/unixworld
-UnixWorld on-line Magazine.
+  ~ <http://www.openline.com.br/linux-br>
 
-http: //www.ugu.com
+Unix World on-line Magazine.
+
+  ~ <http://unixworld.com/unixworld>
+
 Unix Guru Universe.
 
-http: //sunsite.unicamp.br
+  ~ <http://www.ugu.com>
+
 Mirror brasileiro oficial da Sunsite.
 
-http://sunsite.unc.edu
+  ~ <http://sunsite.unicamp.br>
+
 Sunsite Archives.
+
+  ~ <http://sunsite.unc.edu>
 
 FTP Sites
 
-ftp: //ftp.unicamp.br/pub/software/gnu
 Mirror dos pacotes GNU (Free Software Foundation).
 
-ftp: //ftp.unicamp.br/pub/gnu
+  ~ <ftp://ftp.unicamp.br/pub/software/gnu>
+
 GNU Software.
 
-ftp: //ftp.unicamp.br/pub/dicas-1
+  ~ <ftp://ftp.unicamp.br/pub/gnu>
+
 Arquivos da DICAS-L.
 
-ftp://ftp.unicamp.br/pub/documents/rfc/
+  ~ <ftp://ftp.unicamp.br/pub/dicas-1>
+
 Internet RFC (Request For Comments).
+
+  ~ <ftp://ftp.unicamp.br/pub/documents/rfc/>
 
 # Listas de Discussão
 
 listproc@netway.unicamp.br
-Dicas-l, uma lista moderada com dicas periódicas valiosas para administradores.
+
+  ~ Dicas-l, uma lista moderada com dicas periódicas valiosas para administradores.
 Para se inscrever, envie para o endereço acima a mensagem:
-subscribe dicas-I nome completo.
+subscribe dicas-l nome completo.
 
 listproc@listas.ansp.br
-Este servidor disponibiliza duas listas nacionais de grande importância, linux-br
+
+  ~ Este servidor disponibiliza duas listas nacionais de grande importância, linux-br
 e redes-l. Para se inscrever envie uma mensagem com os seguintes comandos:
 subscribe linux-br nome completo.
 subscribe redes-| nome completo.
 
 petidomo@igm.unicamp.br
-Este serrvidor distribui a lista FreeBSD-I. Para se inscrever, envie o comando add
-
+  ~ Este serrvidor distribui a lista FreeBSD-I. Para se inscrever, envie o comando add
 FreeBSD no corpo do e-mail.
 
 # Software Livre
