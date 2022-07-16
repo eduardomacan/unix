@@ -4,6 +4,8 @@ author: Eduardo Marcel Maçan
 date: July 16th, 2022
 ---
 
+\newpage
+
 # Prefácio
 Eu escrevi este guia de UNIX há 25 anos, em 1997. Era um mundo bem diferente,
 embora a Internet já estivesse presente no país ainda não havia se popularizado
@@ -34,9 +36,11 @@ Agradeço ao Rubens Prates e à Novatec Editora pela oportunidade de tê-lo
 escrito e pelo literal "[`Sim!`]" para reeditar seu conteúdo em um novo formato de livre distribuição
 para seu aniversário.
 
+Este é um release inicial ainda em fase "alfa" que passará por constantes revisões. Novidades e novas versões serão publicadas em <https://unix.macan.eng.br>
+
 Eduardo Maçan
 
 [`Sim!`]:https://twitter.com/novateceditora/status/1435940724290297857?s=20&t=JKeNaDADjqMyOoCNxo8_Xw
 
-
+\pagebreak
 
