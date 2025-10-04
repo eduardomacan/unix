@@ -34,13 +34,15 @@ arg       Argumento inicial a ser informado ao comando.
 
 Exemplos:
 
-	# Comprime todos os arquivos com extensão txt abaixo do diretório
-	# corrente, pedindo confirmação, dois arquivos de cada vez.
+	# Comprime todos os arquivos com extensão txt 
+      # abaixo do diretório corrente, pedindo confirmação, 
+      # dois arquivos de cada vez.
 
 	find . -name N*. txt | xargs -pn 2 compress
 
-	# Comprime arquivos um a um até encontrar a string gif em um nome
-	# de arquivo ou diretório (saida de find) e encerra a leitura de stdin.
+	# Comprime arquivos um a um até encontrar a string 
+      # gif em um nome de arquivo ou diretório (saida de
+      # find) e encerra a leitura de stdin.
 
 	find .| xargs -pn 1 -e gif compress -v
 

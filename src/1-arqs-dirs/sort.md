@@ -45,15 +45,18 @@ fim do campo (para -p).
 
 Exemplos:
 
-	# Ordena o conteúdo de arquivo, usando o segundo campo (palavra,
-	# no sentido de texto) como chave de ordenação.
+	# Ordena o conteúdo de arquivo, usando o 
+    # segundo campo (palavra, no sentido de texto)
+    # como chave de ordenação.
 	sort -k 2,2 arquivo
 
-	# Ordena o arquivo arq e armazena a saida em arg.ord.
+	# Ordena o arquivo arq e armazena 
+    # a saida em arg.ord.
 	sort arq -ro arq.ord
 
-	# Mostra o arquivo local de senhas ordenado por user id (o terceiro
-	# campo separado por dois pontos).
+	# Mostra o arquivo local de senhas ordenado 
+    # por user id (o terceiro campo separado 
+    # por dois pontos).
 	cat /etc/passwd|sort -nt: -k 3,3
 
 

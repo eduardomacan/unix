@@ -16,8 +16,8 @@ Parâmetro Descrição
 
 Exemplo:
 
-	# Descomprime os arquivos comprimidos no exemplo do comando
-	# compress.
+	# Descomprime os arquivos comprimidos no 
+	# exemplo do comando compress.
 
 	uncompress -v \*.txt.Z
 

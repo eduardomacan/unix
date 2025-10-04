@@ -49,10 +49,12 @@ Parâmetro Descrição
 
 Exemplos:
 
-	# Copia todos os arquivos listados pelo arquivo texto arquivos.txt
+	# Copia todos os arquivos listados pelo 
+    # arquivo  texto arquivos.txt
 	# para o arquivo de armazenamento arq.cpio.
 	cpio -o < arquivos.txt > arq.cpio
 
-	#Extrai todos os arquivos armazenados em arq.cpio.
+	# Extrai todos os arquivos armazenados 
+    # em arq.cpio.
 	cpio -i < arg.cpio
 

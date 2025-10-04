@@ -61,9 +61,9 @@ Exemplos (shell scripts):
 #!/bin/sh
 # Script para testar tipo de um arquivo.
 # Exemplo 1 do comando test.
-# Uma implementação simplista do comando “file” do Unix, em shell
-# script.
-#Eduardo Macan - 1997
+# Uma implementação simplista do comando “file” 
+# do Unix, em shell script.
+# Eduardo Macan - 1997
 
 if “tests
   then

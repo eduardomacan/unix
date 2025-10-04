@@ -40,10 +40,10 @@ pela shell.
 
 Exemplo:
 
-	# Mostra os comandos da shell necessários para configurar o
-	# terminal como vt100 se estiver associado a uma linha discada a
-	# menos de 1200 bauds, vt220 a 9600 bauds e vt100 caso seja um
-	# xterm.
+	# Mostra os comandos da shell necessários para 
+     # configurar o terminal como vt100 se estiver 
+     # associado a uma linha discada a menos de 1200 bauds,
+     #  vt220 a 9600 bauds e vt100 caso seja um xterm.
 
 	tset -IQs -m ‘dialup<1200:vt100’ 
 	     -m ‘dialup@9600:vt220’ ‘xterm:vt100’

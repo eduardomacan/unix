@@ -2,6 +2,12 @@
 title: Guia de Referência UNIX
 author: Eduardo Marcel Maçan
 date: July 16th, 2022
+geometry:
+  - paperwidth=148mm
+  - top=2cm
+  - bottom=2cm
+  - left=2.5cm
+  - right=2cm
 ---
 
 \newpage

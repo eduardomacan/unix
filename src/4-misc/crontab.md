@@ -34,10 +34,12 @@ Exemplos:
 
 	# Seguem exemplos de linhas válidas de um arquivo crontab:
 
-	# Enviará e-mail ao autor deste guia todo dia 16 de julho às 00:00h.
+	# Enviará e-mail ao autor deste guia todo dia 16 de julho 
+	# às 00:00h.
 	0 0 16 7 * mail -s'Feliz aniversario!' macan
 
-	# Executa o script teste.pl de quinze em quinze minutos, de segunda
-	# a sexta-feira, no horário comercial.
+	# Executa o script teste.pl de quinze em quinze minutos,
+        # de segunda a sexta-feira, no horário comercial.
+
 	0,15,30,45 8-11,13-16 * * 1-5 /bin/teste.pl
 

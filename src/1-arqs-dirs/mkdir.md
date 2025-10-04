@@ -13,8 +13,8 @@ Parâmetro Descrição
 
 Exemplos:
 
-	# Cria o diretório livro e componentes intermediários do path se
-	# necessário.
+	# Cria o diretório livro e componentes 
+	# intermediários do path se necessário.
 	mkdir -p ./pub/docs/livro
 
 	# Cria vários diretórios.

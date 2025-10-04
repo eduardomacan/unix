@@ -53,11 +53,13 @@ livraria mais proxima.
 
 # WWW
 
-Pagina oficial da lista de discussão linux-br, a maior e mais antiga do pais.
+Pagina oficial da lista de discussão linux-br, a maior 
+e mais antiga do pais.
 
   ~ <http://www.openline.com.br/linux-br>
 
-Lista de Usuários Avançados de Linux (lista fechada, inscrição mediante indicação).
+Lista de Usuários Avançados de Linux (lista fechada, 
+inscrição mediante indicação).
 
   ~ <http://www.mondotech.com/lual>
 

@@ -18,6 +18,7 @@ Parâmetro Descrição
 
 Exemplos:
 
-	# Copia todo o diretório html do usuário leonardo para o diretório /www.
+	# Copia todo o diretório html do usuário leonardo
+    # para o diretório /www.
 	cp -r ~leonardo/html/ /www
 

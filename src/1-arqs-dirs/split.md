@@ -24,7 +24,8 @@ Obs: As opções -b e -| são mutuamente exclusivas.
 
 Exemplo:
 
-	# Quebra o arquivo browser.tgz em vários blocos de aprox. 1.4Mb.
+	# Quebra o arquivo browser.tgz em vários blocos
+    # de aprox. 1.4Mb.
 	split -b1400k browser.tgz brow
 
 

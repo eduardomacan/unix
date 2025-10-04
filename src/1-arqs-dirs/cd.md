@@ -9,13 +9,16 @@ Sintaxe
 
 Exemplos
 
-	# Muda o diretório de trabalho para o diretório personal.
+	# Muda o diretório de trabalho para o 
+	# diretório personal.
 	cd personal
 
-	# Muda o diretório de trabalho para o diretório HOME do usuário leonardo.
+	# Muda o diretório de trabalho para o 
+	# diretório HOME do usuário leonardo.
 	cd ~leonardo
 
-	# Muda o diretório de trabalho para o diretório /home/staff/macan.
+	# Muda o diretório de trabalho para o
+	# diretório /home/staff/macan.
 	cd /home/staff/macan
 
 

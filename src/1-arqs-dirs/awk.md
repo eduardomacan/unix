@@ -145,13 +145,16 @@ FS                       Separador de campos (default espaço e
 
 ### Exemplos:
 
-	# Mostra os usuarios locais do sistema e seus respectivos nomes completos.
+	# Mostra os usuarios locais do sistema e seus
+	# respectivos nomes completos.
 	awk -F: '{print $1 " -> " $5)' /etc/passwd
 
 ~~~~~~~
  # Programa - AWK Eduardo M. Macan 1996
- # Calcula as médias dos alunos e a média da classe, a partir de um arquivo texto
- # contendo um nome e duas notas em cada linha (por exemplo: Eduardo 5.7 7.5).
+ # Calcula as médias dos alunos e a média da 
+ # classe, a partir  de um arquivo texto contendo
+ # um nome e duas notas em cada linha 
+ # (por exemplo: Eduardo 5.7 7.5).
 
 BEGIN {
 	printf("Aluno\t\tMedia Final\n")

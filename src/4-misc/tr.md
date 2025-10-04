@@ -18,8 +18,8 @@ Parâmetro Descrição
 
 Exemplo:
 
-	# Mostra o nome de todos os arquivos do diretório corrente em maiúsculas.
-
+	# Mostra o nome de todos os arquivos do diretório 
+    # corrente em maiúsculas.
 	ls | tr 'a-z' 'A-Z'
 
 

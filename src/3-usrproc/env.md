@@ -28,8 +28,8 @@ especificado durante sua execução.
 Exemplos:
 
 	
-	# Executa o comando echo num ambiente onde a variável NOME está
-	# definida.
+	# Executa o comando echo num ambiente onde a 
+	# variável NOME está definida.
 
 	env NOME=Eduardo echo SNOME
 

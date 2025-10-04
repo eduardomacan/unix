@@ -27,10 +27,11 @@ erroneamente.
 
 Exemplos:
 
-	# Mostra o número de usuários locais que se chamam "Mauro".
+	# Mostra o número de usuários locais que   
+	# se chamam "Mauro".
 	grep -ci 'Mauro' /etc/passwd
 
-	# Mostra os arquivos no diretório html que contêm a string Maçan
-	# (em HTML).
+	# Mostra os arquivos no diretório html 
+	# que contêm a string Maçan (em HTML).
 	grep -l 'Ma&ccedil;an' html/*
 

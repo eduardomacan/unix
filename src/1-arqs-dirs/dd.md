@@ -44,7 +44,7 @@ conv=chave[,chave...]  Converte o arquivo segundo a lista de chaves
 
 Exemplos:
 
-	# Converte um arquivo de ebcdic para ascii e para letras minúsculas.
+	# Converte arquivo de ebcdic para ascii minúsculas.
 	dd if=ebcdic.txt of=ascii.txt conv=ascii, lcase
 
 	# Converte a saída do comando ls para maiúsculas.

@@ -70,9 +70,10 @@ sane       Configura todos os modos para valores razoáveis
 
 Exemplos:
 
-	# Muito útil quando a tecla backspace não funciona corretamente. O
-	# ^H do exemplo foi obtido pressionando-se a tecla BackSpace para
-	# associá-la à ação de retrocesso do cursor.
+	# Muito útil quando a tecla backspace não funciona 
+    # corretamente. O ^H do exemplo foi obtido pressionando-se 
+    # a tecla BackSpace para  associá-la à ação de retrocesso 
+    # do cursor.
 
 	erase ^H
 

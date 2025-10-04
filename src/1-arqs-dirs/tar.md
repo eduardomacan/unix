@@ -39,14 +39,16 @@ os quatro últimos exemplos.
 
 Exemplos:
 
-	# Cria o arquivo files.tar, muda para 0 diretorio /etc e inclui o arquivo
-	# arq1 em files.tar, muda para o diretório lusr e inclui o arquivo
-	# arg2, bem como imprime os nomes dos arquivos em stdout.
+	# Cria o arquivo files.tar, muda para o diretorio /etc 
+	# e inclui o arquivo arq1 em files.tar, muda para o 
+	# diretório /usr e inclui o arquivo arg2, bem como 
+	# imprime os nomes dos arquivos em stdout.
 
 	tar cvf files.tar -C /etc arql -C /usr arq2
 
-	# Todos os exemplos abaixo incluem todos os arquivos com
-	# extensão .gif no arquivo images.tar, com blocagem de 512 bytes.
+	# Todos os exemplos abaixo incluem todos os arquivos 
+	# com extensão .gif no arquivo images.tar, 
+	# com blocagem de 512 bytes.
 
 	tar cvfb images.tar 512 *.gif
 

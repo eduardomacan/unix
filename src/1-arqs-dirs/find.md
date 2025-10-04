@@ -84,12 +84,12 @@ exp -o exp    Algumas versões de find usam -o no
 Exemplos:
 
 
-	# Lista todos os arquivos no diretório HOME do usuário macan que
-	# não têm extensão .c.
+	# Lista todos os arquivos no diretório HOME 
+    # do usuário macan que não têm extensão .c.
 	find ~macan \! -name “*.c" -print
 
-	# Lista todos os arquivos no diretório HOME que têm permissão de
-	# execução pelo proprietário.
+	# Lista todos os arquivos no diretório HOME 
+    # com permissão de execução pelo proprietário.
 	find ~ -perm -100 -print
 
 

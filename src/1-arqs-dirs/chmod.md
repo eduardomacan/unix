@@ -107,31 +107,38 @@ de outro usuário.
 
 Exemplos:
 
-	# Adiciona permissão de execução pelo dono ao arquivo meu. script
+	# Adiciona permissão de execução pelo dono 
+	# ao arquivo meu. script
 	chmod u+x meu script
 
-	# Adiciona permissão de leitura e escrita para o dono e para o grupo
-	# de usuários ao qual o arquivo meu script pertence.
+	# Adiciona permissão de leitura e escrita 
+	# para o dono e para o grupo de usuários 
+	# ao qual o arquivo meu script pertence.
 	chmod ug+rw meu script
 
-	# Adiciona permissão de execução e escrita pelo dono ao mesmo
-	# tempo que retira a permissão de escrita do grupo e deixa outros
+	# Adiciona permissão de execução e escrita 
+	# pelo dono ao mesmo tempo que retira a 
+	# permissão de escrita do grupo e deixa outros
 	# grupos apenas lerem o conteúdo do arquivo.
 	chmod u+wx,g-w,o0=r meu script
 
-	# Confere permissão de leitura, escrita e execução ao nes do
-	# arquivo, leitura e execução ao grupo do arquivo e nenhuma
-	# permissão aos demais grupos de usuários.
+	# Confere permissão de leitura, escrita 
+	# e execução ao dono do arquivo, 
+	# leitura e execução ao grupo do arquivo e 
+	# nenhuma permissão aos demais grupos.
 	chmod 750 helloworld
 
 	# Equivalente ao anterior.
 	chmod 0750 helloworld
 
-	# Liga o sticky bit do diretório e dá permissão de leitura, escrita e
+	# Liga o sticky bit do diretório e dá 
+	# permissão de leitura, escrita e
 	# execução a todos os usuários do sistema.
 	chmod 1777 -macan/PUB/
 
-	# Confere permissão de leitura, escrita e execução ao dono e de
-	# execução para grupo e outros ao diretório HOME.
+	# Confere permissão de leitura, 
+	# escrita e execução ao dono e de
+	# execução para grupo e outros 
+	# ao diretório HOME.
 	chmod 711 ~
 

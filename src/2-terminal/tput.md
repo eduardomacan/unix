@@ -39,8 +39,9 @@ todas as características disponibilizadas por tput.
 
 Exemplos:
 
-	# Digite o texto acima em uma linha ou em um script e veja a string
-	# "Oi!" aparecer no meio da tela.
+	# Digite o texto acima em uma linha ou em 
+    # um script e veja a string "Oi!" 
+    # aparecer no meio da tela.
 
 	tput clear; tput 12 34;echo "Oi!“; tput 24 O
 
